@@ -1,0 +1,23 @@
+.navbar {
+    background-color: black;
+    margin: 0;
+    padding: 15px;
+}
+.navbar li {
+    display: inline-block;
+    margin: 0 20px;
+    padding: 10px 15px;
+    background: #58253f;
+    border-radius: 3px;
+    transition: 0.3s all ease;
+}
+.navbar li:hover {
+    background: #8700ff;
+}
+.navbar li:hover a{
+    color: black !important;
+}
+.navbar li a{
+    color: #fff !important;
+    text-decoration: none !important;
+}
